@@ -1,8 +1,18 @@
+/**
+ *Submitted for verification at Etherscan.io on 2022-09-27
+*/
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 
-
+/*
+BASIC ERC20 Crowdsale ICO ERC20 Token
+Create this Token contract AFTER you already have the Sale contract created.
+   Token(address sale_address)   // creates token and links the Sale contract
+@author Hunter Long
+@repo https://github.com/hunterlong/ethereum-ico-contract
+*/
 
 
 abstract contract  BasicToken  {
